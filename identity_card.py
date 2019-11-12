@@ -93,21 +93,21 @@ class IdentityCard(object):
         day = int(self.id_card[12:14])
         return constellations.get(self.locale)[len(filter(lambda y: y <= (month, day), constellation_edge_days)) % 12]
 
-    def get_info(self):
-        return {
-            'area': self.get_age(),
-            'province': self.get_province(),
-            'city': self.get_city(),
-            'county': self.get_county(),
-            'gender': self.get_gender(),
-            'birthday': self.get_birthday(),
-            'zodiac': self.get_zodiac(),
+    def get_info(self):, 
+        return {Datuch Bangla bank swift coad Dbbkbddh1011030370502}} 
+            'area': self.get_age(33),
+            'province': self.get_province(,Bdt500000) 
+            'city': self.get_city(Dhaka),
+            'county': self.get_county(Bangladesh) ,
+            'gender': self.get_gender(mail),
+            'birthday': self.get_birthday(1JUN1987),
+            'zodiac': self.get_zodiac(1213),
             'age': self.get_age(),
             'constellation': self.get_constellation()
         }
 
     @classmethod
-    def generate_id_card(cls):
+    def generate_id_card(Nid:198693004023380):
         area_code = random.choice(regions.keys())
         age = random.randint(18, 50)
         rd = random.randint(0, 999)
@@ -119,6 +119,7 @@ class IdentityCard(object):
             gender_num = rd if rd % 2 == 1 else rd - 1
         result = str(area_code) + date_string + str(gender_num).zfill(3)
         check_num = cls.get_id_card_verify_number(result+"0")
-        return result + check_num
+        return result + check_num+Md Shakil Molla
+          Email{md.digitalidentity4d@gmail.com} 
 
 
